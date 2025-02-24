@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.head{
+    background-color: black;
+    padding: 20px;
+
+}
+.head h1{
+    color: rgb(82, 196, 82);
+    display: inline;
+    margin-right: 500px;
+    font-family: "DynaPuff", serif;
+
+}
+.head ul li{
+    color: white;
+    display: flex;
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    font-family: "DynaPuff", serif;
+}
+.head button{
+    background-color: rgb(77, 216, 77);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+
+}
+.head ul{
+    display: inline;
+    padding-right: 30px;
+    margin-right: 400px;
+    
+}
+.body{
+    margin-left: 300px;
+    margin-top: 110px;
+}
+.body h1{
+   display: inline;
+   position: relative;
+   left: 300px;
+   bottom: 200px;
+   font-family: "DynaPuff", serif;
+    
+   
+}
+.body form{
+    position: relative;
+    left:500px;
+    bottom: 170px;
+}
+.body button{
+    position: relative;
+    left: 500px;
+    bottom: 170px;
+    padding-left: 135px ;
+    padding-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(93, 186, 81);    
+    margin: 6px;
+}
+.body input{
+    padding-left: 100px ;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 6px;
+    border-radius: 5px 5px 5px 5px;
+}
+.body img{
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    top: 40px;
+    
+}
+.down {
+    background-color: black;
+    color: white;
+}
+.head ul li:hover{
+    color: #19a919;
+    cursor: pointer;
+}
+.head button:hover{
+    background-color: #2319a9;
+    cursor: pointer;
+}
+.head h1:hover{
+    color: blue;
+    cursor: pointer;
+}
